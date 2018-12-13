@@ -2,7 +2,10 @@
   "name": "ion2-fullapp-ELITE",
   "author": "Ionic Themes",
   "homepage": "https://ionicthemes.com",
-  "private": true,
+  "private": false,
+  "engines" : {
+   "node" : "8.10.0"
+  },
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
